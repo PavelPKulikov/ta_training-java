@@ -1,0 +1,4 @@
+# Created at 2022-07-04T12:51:42.093
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Training\epma\line-intersection\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
