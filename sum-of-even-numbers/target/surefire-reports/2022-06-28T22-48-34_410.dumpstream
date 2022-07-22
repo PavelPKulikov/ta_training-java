@@ -1,0 +1,4 @@
+# Created at 2022-06-28T22:48:36.061
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Training\epma\sum-of-even-numbers\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
