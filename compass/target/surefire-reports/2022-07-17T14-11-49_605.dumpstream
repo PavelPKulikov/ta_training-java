@@ -1,0 +1,4 @@
+# Created at 2022-07-17T14:11:50.392
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Training\epma\compass\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
