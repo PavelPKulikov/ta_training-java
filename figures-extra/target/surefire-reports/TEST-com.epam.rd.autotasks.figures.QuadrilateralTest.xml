@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.epam.rd.autotasks.figures.QuadrilateralTest" time="1.185" tests="270" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="D:\Training\epma\figures-extra\target\test-classes;D:\Training\epma\figures-extra\target\classes;C:\Users\Asus\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\Asus\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Asus\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\Asus\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\Users\Asus\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Asus\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;C:\Users\Asus\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.2\junit-jupiter-params-5.6.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Kiev"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.3.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Asus\AppData\Local\Temp\surefire1439086351449994865\surefirebooter5334619803043413938.jar C:\Users\Asus\AppData\Local\Temp\surefire1439086351449994865 2022-07-10T19-45-35_403-jvmRun1 surefire14445197409934595687tmp surefire_09350259421380252958tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Training\epma\figures-extra\target\test-classes;D:\Training\epma\figures-extra\target\classes;C:\Users\Asus\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\Asus\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Asus\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\Asus\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\Users\Asus\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Asus\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;C:\Users\Asus\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.2\junit-jupiter-params-5.6.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Asus"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.3.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Training\epma\figures-extra"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Asus\AppData\Local\Temp\surefire1439086351449994865\surefirebooter5334619803043413938.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.3.1+2-LTS-6"/>
+    <property name="user.name" value="Pavel"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Asus\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Asus\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.1.3"/>
+    <property name="java.version" value="17.0.3.1"/>
+    <property name="user.dir" value="D:\Training\epma\figures-extra"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.3.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;D:\Program Files\Git\cmd;D:\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-17.0.3.1\bin;C:\Users\Asus\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.3.1+2-LTS-6"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testTheSame" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[1]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.004"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[2]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[3]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[4]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[5]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[6]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[7]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[8]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[9]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[10]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.003"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[11]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[12]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[13]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[14]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[15]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[16]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.003"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[17]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[18]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[19]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[20]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.003"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[21]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[22]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.006"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[23]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[24]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[25]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[26]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[27]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[28]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[29]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[30]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[31]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[32]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[33]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.003"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[34]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[35]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[36]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[37]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[38]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.003"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[39]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[40]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[41]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.005"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[42]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[43]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[44]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[45]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[46]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[47]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[48]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[49]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[50]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[51]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[52]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[53]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[54]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[55]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[56]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[57]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[58]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.003"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[59]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.003"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[60]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[61]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[62]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[63]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[64]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.005"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[65]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[66]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[67]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[68]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[69]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[70]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[71]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[72]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[73]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[74]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[75]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[76]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[77]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[78]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[79]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.033"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[80]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[81]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[82]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[83]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.003"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[84]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[85]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[86]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[87]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[88]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[89]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[90]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[91]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[92]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[93]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[94]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[95]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[96]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[97]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[98]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[99]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[100]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[101]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[102]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[103]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[104]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[105]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[106]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[107]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[108]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[109]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[110]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.003"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[111]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[112]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[113]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[114]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[115]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[116]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.005"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[117]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.005"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[118]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[119]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[120]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[121]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[122]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[123]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.007"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[124]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.003"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[125]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[126]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[127]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[128]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[129]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[130]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[131]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[132]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[133]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[134]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[135]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[136]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[137]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[138]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[139]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[140]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[141]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[142]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[143]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[144]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[145]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[146]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[147]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[148]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[149]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.003"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[150]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[151]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.003"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[152]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.004"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[153]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[154]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[155]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[156]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[157]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[158]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[159]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[160]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[161]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[162]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[163]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[164]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[165]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[166]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.005"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[167]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[168]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[169]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[170]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[171]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[172]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[173]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[174]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[175]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[176]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[177]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[178]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[179]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[180]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[181]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[182]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[183]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[184]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[185]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[186]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[187]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[188]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[189]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[190]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.007"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[191]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[192]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[193]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[194]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[195]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[196]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[197]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[198]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[199]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[200]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[201]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[202]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[203]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[204]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[205]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[206]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[207]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[208]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[209]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[210]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[211]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[212]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[213]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[214]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[215]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[216]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[217]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[218]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[219]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[220]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[221]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[222]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[223]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[224]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[225]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.004"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[226]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[227]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.003"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[228]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[229]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[230]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[231]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[232]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[233]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[234]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[235]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[236]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[237]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[238]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[239]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[240]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[241]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[242]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[243]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.004"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[244]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[245]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.005"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[246]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[247]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[248]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[249]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[250]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[251]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[252]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[253]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[254]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[255]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testCentroid{double, double, Quadrilateral}[256]" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testConstructorDegenerative1" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testConstructorDegenerative2" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.003"/>
+  <testcase name="testConstructorDegenerative3" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testConstructorDegenerative4" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testConstructorNonConvex1" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testConstructorNonConvex2" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testConstructorNullACase" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testConstructorNullBCase" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testConstructorNullCCase" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.003"/>
+  <testcase name="testConstructorNullDCase" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.001"/>
+  <testcase name="testConstructorNotPlain1" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.002"/>
+  <testcase name="testConstructorNotPlain2" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0.011"/>
+  <testcase name="testConstructor" classname="com.epam.rd.autotasks.figures.QuadrilateralTest" time="0"/>
+</testsuite>
