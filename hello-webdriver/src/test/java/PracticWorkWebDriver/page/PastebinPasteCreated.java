@@ -9,9 +9,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class PastebinPasteCreated extends AbstractPage{
+    public String urlOfPaste;
 
-   // private WebDriver driver;
-
+    public PastebinPasteCreated setUrlOfPaste(String urlOfPaste) {
+        this.urlOfPaste = urlOfPaste;
+        return this;
+    }
 
     public PastebinPasteCreated (WebDriver driver){
         super(driver);
@@ -19,9 +22,8 @@ public class PastebinPasteCreated extends AbstractPage{
     }
     @Override
     public PastebinPasteCreated openPage() {
-        driver.get("");
+        driver.get(urlOfPaste);
         new WebDriverWait(driver, Duration.ofSeconds(10));
-        //driver.findElement(By.xpath("//*[@class='active-path']")).click(); //close Ads
         return this;
     }
 

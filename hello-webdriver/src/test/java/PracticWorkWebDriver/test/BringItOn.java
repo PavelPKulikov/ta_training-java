@@ -27,14 +27,12 @@ import PracticWorkWebDriver.page.PastebinPasteCreated;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import java.time.Duration;
+
 
 public class BringItOn {
 
@@ -60,35 +58,33 @@ public class BringItOn {
         .fillPasteName(nameOfPaste)
         .createNewPaste()
         .getNewPasteUrl();
-        System.out.println(resultUrl);
-
     }
-//
-//    @Test(description = "Equal page Title and paste name")
-//    public void checkPageTitle(){
-//        new PastebinPasteCreated(driver).openPage();
-//        Assert.assertEquals(driver.getTitle().replace(" - Pastebin.com",""),
-//                nameOfPaste);
-//    }
-//
-//
-//    @Test(description = "Equal syntax from page and syntax from task")
-//    public void checkSyntax(){
-//        new PastebinPasteCreated(driver).openPage();
-//        Assert.assertEquals(driver.findElement(By.xpath("//div[@class='top-buttons']//a")).getText(),
-//                syntaxOfPaste);
-//    }
-//
-//    @Test
-//    public void checkTextOfPaste(){
-//        new PastebinPasteCreated(driver).openPage();
-//        Assert.assertEquals(driver.findElement(By.xpath("//textarea")).getText(), textToPaste);
-//    }
+
+    @Test(description = "Equal page Title and paste name")
+    public void checkPageTitle(){
+        new PastebinPasteCreated(driver).setUrlOfPaste(resultUrl).openPage();
+        Assert.assertEquals(driver.getTitle().replace(" - Pastebin.com",""),
+                nameOfPaste);
+    }
+
+
+    @Test(description = "Equal syntax from page and syntax from task")
+    public void checkSyntax(){
+
+        new PastebinPasteCreated(driver).setUrlOfPaste(resultUrl).openPage();
+        Assert.assertEquals(driver.findElement(By.xpath("//div[@class='top-buttons']//a")).getText(),
+                syntaxOfPaste);
+    }
+
+    @Test
+    public void checkTextOfPaste(){
+        new PastebinPasteCreated(driver).setUrlOfPaste(resultUrl).openPage();
+        Assert.assertEquals(driver.findElement(By.xpath("//textarea")).getText(), textToPaste);
+    }
 
 
     @AfterMethod(alwaysRun = true)
-    public void browserTearDown() throws InterruptedException {
-        Thread.sleep(20000);
+    public void browserTearDown() {
         driver.quit();
         driver = null;
     }

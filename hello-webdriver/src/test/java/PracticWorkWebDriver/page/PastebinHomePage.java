@@ -71,8 +71,8 @@ public class PastebinHomePage extends AbstractPage {
 
     public PastebinHomePage createNewPaste(){
         createButton.click();
-        new WebDriverWait(driver, Duration.ofSeconds(30)).until(driver.getCurrentUrl() != HOMEPAGE_URL);
-        System.out.println("Created new paste with URL:"+driver.getCurrentUrl());
+        new WebDriverWait(driver, Duration.ofSeconds(30))
+                .until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='date']")));
         return this;
     }
 
